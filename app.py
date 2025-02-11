@@ -12,7 +12,7 @@ path = subprocess.run(["whereis","firefox.geckodriver"],capture_output=True,text
 service = Service(path)
 options = Options()
 options.headless = True
-browser  = webdriver.Firefox(service = service,firefox_options=options)
+browser  = webdriver.Firefox(service = service,options=options)
 
 #login page url
 wifi_auth = browser.get('http://detectportal.firefox.com/canonical.html')
