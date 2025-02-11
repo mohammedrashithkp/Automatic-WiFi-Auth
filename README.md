@@ -7,7 +7,8 @@ This repo contains a python program which automates logins in to WiFi Captive Po
 3. Install selenium & Run the Python Project
    ```shell
     pip install selenium
-    python3 app.py ```
+    python3 app.py
+   ```
 ## Future Works
 - Make a cron job which gets activated when the device is connected to a defined ssid.
 - Make it work in Windows.
