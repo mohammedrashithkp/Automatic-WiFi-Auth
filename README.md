@@ -1,2 +1,16 @@
 # Automatic-WiFi-Auth
-This repo contains a python program which automates logins in to wifi portals provided that the browser is firefox and the operating system is Ubuntu.
+This repo contains a python program which automates logins in to WiFi Captive Portals usually found in Educational Institutes,Restaurants etc saving you the hassle of filling it every time .
+> This is made for Firefox Browser in (Tested in Ubuntu 22.04).
+## How to Use
+1. Clone the repo to your Machine.
+2. Make an .env file with auth_user and auth_password parameters.
+3. Install selenium & Run the Python Project
+   ```shell
+    pip install selenium
+    python3 app.py ```
+## Future Works
+- Make a cron job which gets activated when the device is connected to a defined ssid.
+- Make it work in Windows.
+## References
+- Selenium (Docs)[https://www.selenium.dev/documentation/]
+- Finding Firefox (Folder)[https://www.howtogeek.com/255587/how-to-find-your-firefox-profile-folder-on-windows-mac-and-linux/]
