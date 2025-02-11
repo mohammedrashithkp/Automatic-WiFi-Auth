@@ -3,9 +3,16 @@ This repo contains a python program which automates logins in to WiFi Captive Po
 > This is made for Firefox Browser in (Tested in Ubuntu 22.04).
 ## How to Use
 1. Clone the repo to your Machine.
+```bash
+ git clone https://github.com/mohammedrashithkp/Automatic-WiFi-Auth.git && cd Automatic-WiFi-Auth
+``` 
 2. Make an .env file with auth_user and auth_password parameters.
-3. Install selenium & Run the Python Project
-   ```shell
+   ```env
+   auth_user=USERNAME
+   auth_password=PASSWORD
+   ```
+4. Install selenium & Run the Python Project
+   ```bash
     pip install selenium
     python3 app.py
    ```
