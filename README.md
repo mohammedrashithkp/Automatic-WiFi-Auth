@@ -4,7 +4,8 @@ This repo contains a python program which automates logins in to WiFi Captive Po
 ## How to Use
 1. Clone the repo to your Machine.
 ```bash
- git clone https://github.com/mohammedrashithkp/Automatic-WiFi-Auth.git && cd Automatic-WiFi-Auth
+ git clone https://github.com/mohammedrashithkp/Automatic-WiFi-Auth.git
+&& cd Automatic-WiFi-Auth
 ``` 
 2. Make an .env file with auth_user and auth_password parameters.
    ```env
