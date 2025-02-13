@@ -12,9 +12,9 @@ This repo contains a python program which automates logins in to WiFi Captive Po
    auth_user=USERNAME
    auth_password=PASSWORD
    ```
-4. Install selenium & Run the Python Project
+4. Install Necessary Libraries & Run the Python Project
    ```bash
-    pip install selenium
+    pip install selenium python-dotenv
     python3 app.py
    ```
 ## Future Works
