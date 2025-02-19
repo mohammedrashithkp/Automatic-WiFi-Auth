@@ -19,7 +19,6 @@ This repo contains a python program which automates logins in to WiFi Captive Po
    ```
 ## Future Works
 - Make a cron job which gets activated when the device is connected to a defined ssid.
-- Make it work in Windows.
 ## References
 - Selenium [Docs](https://www.selenium.dev/documentation/)
 - Finding Firefox [Folder](https://www.howtogeek.com/255587/how-to-find-your-firefox-profile-folder-on-windows-mac-and-linux/)
