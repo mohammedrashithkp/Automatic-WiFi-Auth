@@ -7,11 +7,14 @@ from selenium.webdriver.firefox.options import Options
 import os
 import time
 import subprocess
+if (os.name =='posix') : path = subprocess.run(["whereis","firefox.geckodriver"],capture_output=True,text=True,check=True).stdout.strip().split(":")[1].strip().split()[0]
+if (os.name =='nt') : path = str(os.path.dirname(os.path.realpath(__file__) )) + '/geckodriverWin.exe' 
 
-path = subprocess.run(["whereis","firefox.geckodriver"],capture_output=True,text=True,check=True).stdout.strip().split(":")[1].strip().split()[0]
+
+
 service = Service(path)
 options = Options()
-options.headless = True
+options.add_argument("--headless")
 browser  = webdriver.Firefox(service = service,options=options)
 
 #login page url
