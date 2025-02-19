@@ -1,6 +1,6 @@
 # Automatic-WiFi-Auth
 This repo contains a python program which automates logins in to WiFi Captive Portals usually found in Educational Institutes,Restaurants etc saving you the hassle of filling it every time .
-> This is made for Firefox Browser in (Tested in Ubuntu 22.04).
+> This is made for Firefox Browser in (Tested in Ubuntu 22.04 & Win11).
 ## How to Use
 1. Clone the repo to your Machine.
 ```bash
