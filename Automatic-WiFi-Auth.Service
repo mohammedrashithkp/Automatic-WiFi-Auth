@@ -1,0 +1,13 @@
+[Unit]
+Description = Automatic WIFI Authenticator
+After = network.target
+
+[Service]
+Execstart=/bin/bash ~/Downloads/Automatic-WiFi-Auth/wifi-check.sh
+Restart=always
+User=rashi
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=multi-user.target
+

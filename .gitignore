@@ -135,7 +135,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+wifi_check.sh
+Automatic-WiFi-Auth.service
 # Spyder project settings
 .spyderproject
 .spyproject
