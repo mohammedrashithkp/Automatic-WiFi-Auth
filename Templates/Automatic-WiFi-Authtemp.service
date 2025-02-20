@@ -1,0 +1,12 @@
+[Unit]
+Description=Auto Run WiFi Login Script
+After=network-online.target
+
+[Service]
+ExecStart=/bin/bash /path/to/wifi_checktemp.sh
+Restart=always
+User=your-username 
+Environment=DISPLAY=:0
+
+[Install]
+WantedBy=multi-user.target 
